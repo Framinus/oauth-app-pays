@@ -13,8 +13,6 @@ const listSignatureRequests = () => {
   })
 };
 
-console.log(listSignatureRequests());
-
 // send a non-embedded signature request.
 const sendSignatureRequest = () => {
   const opts = {
